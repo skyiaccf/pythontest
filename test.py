@@ -6,13 +6,7 @@
 
 
 txt = open('test.txt','w')
-txt.write('123456789')
-txt.close()
-
-txt = open('test.txt','r+')
-txt.write('00000')
-tttt = txt.readlines(txt,1)
-print(tttt)
+txt.write('人生苦短，我用Python')
 txt.close()
 
 
