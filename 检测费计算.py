@@ -1,4 +1,5 @@
 from prettytable import PrettyTable
+
 t = PrettyTable()
 t.title = "第三方软件测试费计算"
 t.field_names = ["序号","软件开发费用（M）（万元）","费率（%）"]
